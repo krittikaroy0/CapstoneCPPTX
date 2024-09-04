@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #38761D;
+    --secondary-color: #E69138;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+
+.container {
+    min-width: 360px;
+}
+
+/* #header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/home.gif) no-repeat center;
+    background-size: cover;
+    height: 900px;
+} */
+.w-45 {
+    width: 45%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.h-350 {
+    width: 350px;
+    height: 350px;
+}
+
+.h-450 {
+    height: 450px;
+}
+.text-navy{
+    color: #100350;
+}
+.supervisor-poster img {
+    height: 500px;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#header .header-content h1 {
+    font-size: 50px;
+
+    &.x {
+        color: var(--secondary-color);
+    }
+
+    &.y {
+        color: var(--primary-color);
+    }
+}
+
+#navbar .nav-item a {
+    color: var(--primary-color);
+
+    &:hover {
+        color: var(--secondary-color);
+        transition: .2s;
+        border: 1px solid var(--primary-color);
+    }
+
+    &.active {
+        color: var(--secondary-color);
+    }
+}
+
+
+
+#navbar .navbar-brand {
+    padding: 0px 20px;
+    margin: 0px 0px;
+}
+
+.color-primary {
+    color: var(--primary-color);
+}
+
+.color-secondary {
+    color: var(--secondary-color);
+}
+
+#introduction .intro ol {
+    font-family: playfair-display;
+    padding: 20px 100px;
+    font-size: 24px;
+}
+
+#introduction .intro ol li {
+    color: var(--primary-color);
+}
+
+#background .back ul {
+    font-family: playfair-display;
+    padding: 40px 120px;
+    font-size: 24px;
+}
+
+#background .back ul li {
+    color: var(--secondary-color);
+    list-style: square;
+}
+
+#bp .Procedure ul {
+    font-family: playfair-display;
+    padding: 40px 120px;
+    font-size: 24px;
+}
+
+#bp .Procedure ul li {
+    color: var(--secondary-color);
+    list-style: square;
+}
+
+#bp .Procedure ul h3 {
+    color: var(--secondary-color);
+    font-family: playfair-display;
+    font-size: 30px;
+}
+
+/* slider section start */
+#carouselCaptions h1 span {
+    color: var(--primary-color);
+}
+
+#carouselCaptions .carousel-indicators {
+    bottom: 40px;
+}
+#carouselCaptions .carousel-indicators [data-bs-target] {
+    /* height: 15px;
+    width: 15px;
+    opacity: 1;
+    border-radius: 50%; */
+
+    &:hover {
+        background-color: violet;
+    }
+
+    &.active {
+        background-color: var(--secondary-color);
+    }
+
+}
+#carouselCaptions .carousel-inner h1 {
+    font-family: sans-serif;
+    font-size: 42px;
+    line-height: 55px;
+    color: var(--light-color);
+
+    &:hover {
+        color: var(--primary-color);
+    }
+}
+
+#carouselCaptions .carousel-inner p {
+    color: var(--light-color);
+}
+
+#carouselCaptions .carousel-inner a {
+    color: var(--light-color);
+
+    &.btn {
+        color: var(--light-color);
+        background: var(--primary-color);
+    }
+}
+
+/* slider section end */
+#environmental .environmental_impacts p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 80px;
+    font-size: 24px;
+    
+}
+#conclusion .conclusion-content p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 80px;
+    font-size: 30px;
+    
+}
+#ps .back ul li {
+    color: var(--secondary-color);
+    list-style: square;
+}
+#ps.back ul li{
+   
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 80px;
+    font-size: 30px;
+    margin: 30px 20px;
+}
